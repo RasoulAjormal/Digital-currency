@@ -1,0 +1,179 @@
+@media (min-width: 1200px) {
+    .show {
+        display: none;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    body {
+        width: 992px;
+    }
+
+    .logo {
+        height: 15px;
+    }
+
+    .show {
+        display: none !important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    body {
+        width: 768px;
+    }
+
+    .item {
+        top: 60%;
+    }
+
+    .item b {
+        font-size: 16px
+    }
+
+    .img-1 .item {
+        top: 75%;
+        font-size: 25px;
+    }
+
+    .News {
+        margin-bottom: 20px;
+    }
+
+    .container-mid {
+        display: inline-block;
+
+    }
+
+    .show {
+        display: none !important;
+    }
+
+    .right {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 767.98px) {
+    body {
+        width: 576px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-areas:
+
+        'container-img'
+    'container-mid';
+
+    }
+
+    .container-img {
+        height: calc(300px * 6);
+        display: grid;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-template-areas:
+        'img-1'
+        'img-2'
+        'img-3'
+        'img-4'
+        'img-5'
+        'img-6';
+    }
+
+
+    .slider-list {
+        width: 100%;
+        display: block;
+    }
+
+    .right {
+        margin: 0;
+    }
+
+    .box-left img {
+        margin: 0;
+    }
+
+    .container-mid {
+        display: inline-block;
+
+    }
+
+    .item {
+        top: 70%;
+    }
+
+    .img-1 .item {
+        top: 50%;
+    }
+
+    .header-menu {
+        display: none;
+    }
+
+    .header-menu-item {
+        display: block;
+        padding-bottom: 10px
+    }
+
+    .header-menu-btn {
+        display: inline-block;
+    }
+
+    .first-row {
+        display: block;
+    }
+
+
+    .News {
+        margin-bottom: 20px;
+    }
+
+    .show {
+        display: block !important;
+    }
+
+    .copy-right {
+        margin: 20px 0 20px 0;
+    }
+
+    .second-row {
+        display: inline-block;
+    }
+
+    .footer-menu {
+        height: auto;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto 20px auto;
+    }
+
+    .footer-social-network {
+        justify-content: center;
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width: 575.98px) {
+    body {
+        width: calc(100% - 30px);
+        padding: 0 15px;
+    }
+
+    .nu-2 {
+        display: none !important;
+    }
+
+    .boxes-left {
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    .copy-right {
+        margin: 20px 0;
+    }
+
+}
