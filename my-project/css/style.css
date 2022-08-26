@@ -6,7 +6,7 @@
 }
 
 body {
-    width: calc(100% - 20);
+    width: 1200px;
     margin: 0 auto;
     display: block;
     background-color: #040E27;
